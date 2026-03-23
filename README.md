@@ -9,95 +9,90 @@ Isadora Miranda
 
 Sérgio Monteiro
 
+# Descrição
+
+Repositório contendo a resolução de uma atividade avaliativa desenvolvida em Python, com foco em lógica de programação, uso de estruturas condicionais e loops.
+
+## Estrutura do Projeto
+
+```
+avaliacao-python/
+├── q1_temperaturas.ipynb
+├── q2_notas.ipynb
+├── q3_energia.ipynb
+├── q4_compras.ipynb
+└── README.md
+```
+
 ---
 
-## Descrição
+## Objetivos da Atividade
 
-Este repositório contém a resolução de uma atividade avaliativa desenvolvida em Python, com foco no uso de:
-
-* Estruturas condicionais (`if`, `elif`, `else`)
-* Estruturas de repetição (`for`)
-* Manipulação de listas
-* Contadores e métricas simples
-
-A atividade foi originalmente desenvolvida no Google Colab e posteriormente adaptada para publicação no GitHub.
+* Praticar estruturas condicionais (`if`, `elif`, `else`)
+* Utilizar estruturas de repetição (`for`, `while`)
+* Trabalhar com listas e operações básicas
+* Desenvolver raciocínio lógico aplicado a problemas reais
 
 ---
 
-## Conteúdo da Atividade
+## Descrição das Questões
 
 ### Questão 1 — Classificação de Temperaturas
 
-Nesta etapa, foi criada uma lista de temperaturas e implementada uma lógica para classificá-las em:
-
-* Frio (temperaturas abaixo de 20°C)
-* Agradável (entre 20°C e 30°C)
-* Quente (acima de 30°C)
-
-Além disso, o programa contabiliza a quantidade de dias em cada categoria.
+* Criar uma lista com classificações de temperatura (ex: frio, ameno, quente)
+* Contar quantos dias se enquadram em cada categoria
 
 ---
 
 ### Questão 2 — Sistema de Avaliação de Alunos
 
-Foi desenvolvida uma análise de notas de alunos, classificando-os em:
+* Gerar uma lista com a classificação dos alunos (aprovado/reprovado)
+* Calcular:
 
-* Reprovado (nota < 5)
-* Recuperação (5 ≤ nota < 7)
-* Aprovado (nota ≥ 7)
+  * Quantidade de alunos aprovados
+  * Percentual de alunos reprovados
 
-Também foram implementadas funcionalidades para:
+---
 
-* Contar o número de alunos aprovados
-* Calcular o percentual de alunos reprovados
+### Questão 3 — Monitoramento de Consumo de Energia
+
+* Identificar dias com consumo elevado
+* Calcular:
+
+  * Consumo total da semana
+  * Média semanal de consumo
+* Exibir alerta caso haja mais de 2 dias com consumo alto
+
+---
+
+### Questão 4 — Simulação de Carrinho de Compras
+
+* Criar lista com preços finais dos produtos
+* Calcular:
+
+  * Valor total da compra com desconto
+  * Economia total obtida
+
+---
+
+## Como Executar
+
+1. Abra os arquivos `.ipynb` no Google Colab ou Jupyter Notebook
+2. Execute as células sequencialmente
+3. Analise os resultados exibidos em cada questão
 
 ---
 
 ## Tecnologias Utilizadas
 
 * Python 3
-* Google Colab
-
----
-
-## Como Executar
-
-1. Clone este repositório:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-2. Acesse o diretório:
-
-```bash
-cd seu-repositorio
-```
-
-3. Execute o arquivo `.ipynb` em:
-
-   * Google Colab
-   * Jupyter Notebook
-
----
-
-## Objetivo Educacional
-
-O principal objetivo desta atividade é reforçar conceitos fundamentais de programação em Python, especialmente:
-
-* Lógica de decisão
-* Iteração sobre listas
-* Organização de código
-* Interpretação de dados simples
+* Jupyter Notebook / Google Colab
 
 ---
 
 ## Observações
 
-Este projeto tem fins exclusivamente educacionais.
+Este projeto tem caráter educacional e foi desenvolvido como parte de uma atividade avaliativa para prática de conceitos básicos de programação em Python.
 
 ---
 
-## Contribuição
-
-Sinta-se à vontade para sugerir melhorias ou adaptações!
