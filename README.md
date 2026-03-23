@@ -1,4 +1,4 @@
-# Avalia-o-Avaliativa---L-gica-de-Programa-o
+# Avaliacao-Avaliativa---Logica-de-Programacao
 # Atividade Avaliativa - Python
 
 ## Autora
